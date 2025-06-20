@@ -1,0 +1,17 @@
+[project]
+name = "metadata-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.13",
+    "google-genai>=1.21.0",
+    "kafka-python>=2.2.12",
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.25",
+    "mcp[cli]>=1.9.4",
+    "openmetadata-ingestion~=1.7.4.0",
+    "pymongo>=4.13.2",
+    "sentence-transformers>=4.1.0",
+]
